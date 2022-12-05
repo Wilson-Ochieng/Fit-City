@@ -17,6 +17,11 @@ class UsersController < ApplicationController
       end
     end
 
+  #   # Auto-login feature
+  # def show
+  #   render json: @current_user
+  # end
+
     # POST /users
     def create
       user = User.new(user_params)
