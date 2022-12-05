@@ -8,11 +8,11 @@ const Home = () => {
 
     return (
         <MainContainer>
-            <LogoText> Fit-City</LogoText>
+            <LogoText>Fit City</LogoText>
             <HorizontalLine />
-            <Instructions>Click to Log-in to your page</Instructions>
+            <Instructions>Log-in to your page</Instructions>
             <LogIn onClick={() => history.push('/login')}>Log In</LogIn>
-            <Instructions>click below to Sign Up</Instructions>
+            <Instructions>Or click below to Sign Up</Instructions>
             <SignUp onClick={() => history.push('/signup')}>Sign Up</SignUp>
         </MainContainer>
     )
