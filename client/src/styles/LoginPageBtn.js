@@ -5,17 +5,16 @@ function LoginPageBtn({ type, content, onClick }) {
 }
 
 const LoginPageBtnStyle = styled.button`
-  background: linear-gradient(to right, #ffffff 0%, #ffe7d1 70%);
+  margin: 2rem 0 3rem 0;
+  background: linear-gradient(to right, #14163c 0%, #062c9e 70%);
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  width: 30%;
-  height: 2rem;
+  width: 40%;
+  height: 3rem;
   border: none;
   border-radius: 2rem;
   cursor: pointer;
-  color: #2b3099;
-  font-weight: bold;
-  margin: 0.3rem 0 0 0;
+  color: white;
 `;
 
 export default LoginPageBtn

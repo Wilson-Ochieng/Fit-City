@@ -10,9 +10,9 @@ const Home = () => {
         <MainContainer>
             <LogoText> Fit-City</LogoText>
             <HorizontalLine />
-            <Instructions>Log-in to your page</Instructions>
+            <Instructions>Click to Log-in to your page</Instructions>
             <LogIn onClick={() => history.push('/login')}>Log In</LogIn>
-            <Instructions>Or click below to Sign Up</Instructions>
+            <Instructions>click below to Sign Up</Instructions>
             <SignUp onClick={() => history.push('/signup')}>Sign Up</SignUp>
         </MainContainer>
     )
@@ -20,10 +20,12 @@ const Home = () => {
 
 const LogoText = styled.h2`
   margin: 3rem 0 1rem 0;
+  color : white;
 `;
 
 const Instructions = styled.h4`
   margin: 1rem 0 0 0;
+  color: #000000
 `;
 
 const LogIn = styled.button`
