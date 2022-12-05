@@ -20,10 +20,12 @@ const Home = () => {
 
 const LogoText = styled.h2`
   margin: 3rem 0 1rem 0;
+  color : white;
 `;
 
 const Instructions = styled.h4`
   margin: 1rem 0 0 0;
+  color: #000000
 `;
 
 const LogIn = styled.button`
