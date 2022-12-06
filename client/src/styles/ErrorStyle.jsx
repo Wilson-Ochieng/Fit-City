@@ -7,7 +7,7 @@ const ErrorStyle = styled.div`
   letter-spacing: 0.1rem;
   font-size: 0.8rem;
   text-align: center;
-  color: #7e7e9c;
+  color: #fff;
 `;
 
 export default ErrorStyle
