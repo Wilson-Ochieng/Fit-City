@@ -19,7 +19,7 @@ const Workout = ({ workout, workouts, setWorkouts }) => {
         <div>
             <WorkoutContainer key={workout.id}>
                 <Date>{workout.date}</Date>
-                <Weight>Weight:{workout.weight}lbs</Weight>
+                <Weight>Weight:{workout.weight}Kgs</Weight>
             </WorkoutContainer>
             {editing ? <EditWorkoutForm workouts={workouts} setWorkouts={setWorkouts} workout={workout} editing={editing} setEditing={setEditing} />
                 : <EditBtn onClick={() => setEditing(true)} content='Edit' />}

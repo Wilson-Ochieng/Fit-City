@@ -17,7 +17,7 @@ const UserHomePage = ({ errors, setErrors, currentUser }) => {
 
 const LogoText = styled.h2`
   margin: 0.4rem 0 0 0;
-  color: #062c9e;
+  color: #9e066e;
 `;
 
 export default UserHomePage

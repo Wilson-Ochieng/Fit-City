@@ -49,7 +49,7 @@ const ExerciseList = ({ currentUser, setCurrentUser }) => {
 }
 
 const BackBtn = styled.button`
-  background: linear-gradient(to right, #2b3099 20%, #73a8e6 100%);
+  background: linear-gradient(to right, #b82881 20%, #73a8e6 100%);
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   width: 40%;
