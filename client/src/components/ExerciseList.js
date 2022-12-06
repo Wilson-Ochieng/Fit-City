@@ -3,7 +3,7 @@ import { useHistory } from 'react-router'
 import NavBar from './NavBar'
 import Exercise from './Exercise'
 import AddExerciseForm from './AddExerciseForm'
-import Errors from './Errors'
+//import Errors from './Errors'
 import styled from 'styled-components'
 import { ExerciseContainer, ScrollBar } from '../styles'
 
