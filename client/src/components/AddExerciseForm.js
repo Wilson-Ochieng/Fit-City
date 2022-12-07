@@ -30,7 +30,7 @@ const AddExerciseForm = ({ addExercise }) => {
 }
 
 const FormText = styled.span`
-  color:#D70040;
+  color:#14163c;
   margin: 0.6rem 0 0.1rem 4.4rem;  
   text-shadow: 1px 1px 1px #7e7e9c;
   letter-spacing: 0.05rem;
