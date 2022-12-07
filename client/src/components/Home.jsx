@@ -12,7 +12,7 @@ const Home = () => {
             <HorizontalLine />
             <Instructions>Log-in to your page</Instructions>
             <LogIn onClick={() => history.push('/login')}>Log In</LogIn>
-            <Instructions>Or click below to Sign Up</Instructions>
+            <Instructions>click below to Sign Up</Instructions>
             <SignUp onClick={() => history.push('/signup')}>Sign Up</SignUp>
         </MainContainer>
     )
@@ -25,7 +25,7 @@ const LogoText = styled.h2`
 
 const Instructions = styled.h4`
   margin: 1rem 0 0 0;
-  color: #000000
+  color: #fff
 `;
 
 const LogIn = styled.button`

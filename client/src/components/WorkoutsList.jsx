@@ -37,7 +37,7 @@ const WorkoutsList = ({ errors, setErrors }) => {
             .then(data => handleNewWorkout(data))
     }
 
-    const workoutList = workouts.map((workout, index) => <Workout key={index} workout={workout} workouts={workouts} setWorkouts={setWorkouts} />)
+    const workoutList = workouts.map((workout, index) => < Workout key={index} workout={workout} workouts={workouts} setWorkouts={setWorkouts} />)
 
     return (
         <div>
@@ -47,7 +47,7 @@ const WorkoutsList = ({ errors, setErrors }) => {
             <br />
             <Errors errors={errors} />
             <ScrollBar>
-                {workoutList}
+            {workoutList}
             </ScrollBar>
         </div>
     )

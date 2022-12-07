@@ -30,7 +30,7 @@ const Workout = ({ workout, workouts, setWorkouts }) => {
 }
 
 const Date = styled.h3`
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.4rem;
 `;
 
 const Weight = styled.h4`

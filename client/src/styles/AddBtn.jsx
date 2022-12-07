@@ -5,7 +5,7 @@ function AddBtn({ type, content }) {
 }
 
 const AddBtnStyle = styled.button`
-  background: linear-gradient(to right, #ffffff 0%, #ffe7d1 70%);
+  background: ;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   width: 40%;

@@ -37,9 +37,9 @@ const Signup = ({ errors, handleUserLoginAndSignup }) => {
       <br />
       <Errors errors={errors} />
       <InputForm onSubmit={onSubmit}>
-        <LabelText>Enter your Username:</LabelText>
+        <LabelText>Create your Username:</LabelText>
         <SignInput onChange={onChange} name='username' type='text' />
-        <LabelText>Enter your Password:</LabelText>
+        <LabelText>Create your Password:</LabelText>
         <SignInput onChange={onChange} name='password' type='password' />
         <ConfirmText>Confirm your Password:</ConfirmText>
         <SignInput onChange={onChange} name='password_confirmation' type='password' />
@@ -54,18 +54,18 @@ const Signup = ({ errors, handleUserLoginAndSignup }) => {
 
 const LabelText = styled.h5`
   margin: 0.4rem 0 0 0;
-  color: black;
+  color: white;
 `;
 
 const ConfirmText = styled.h5`
   margin: 0.4rem 0 0 0;
-  color: black;
+  color: white;
   font-style: italic;
 `;
 
 const FooterText = styled.h5`
   margin: -2rem 0 0 0;
-  color: black;
+  color: white;
   letter-spacing: 0.2rem;
 `;
 

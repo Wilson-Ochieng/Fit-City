@@ -6,11 +6,11 @@ const WorkoutContainer = styled.div`
   flex-direction: column;
   height: 7vh;
   width: 30vw;
-  background: rgba(255, 255, 255, 0.18);
+  background: #fff;
   box-shadow: 0 4px 4px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(12px);
   border-radius: 8px;
-  color: #8a8294;
+  color: #fff;
   font-size: 14px;
   text-shadow: 1px 1px 1px #ffffff;
   text-transform: uppercase;

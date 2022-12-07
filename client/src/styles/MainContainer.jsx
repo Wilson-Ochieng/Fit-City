@@ -13,7 +13,7 @@ const MainContainer = styled.div`
   border-radius: 10px;
   color: #ffffff;
   text-transform: uppercase;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.3rem;
   @media only screen and (max-width: 320px) {
     width: 90vw;
     height: 90vh;

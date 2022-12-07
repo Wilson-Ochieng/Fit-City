@@ -31,7 +31,7 @@ const FormText = styled.h5`
   margin: 0.2rem 0 1rem 0;
   text-shadow: 1px 1px 1px #7e7e9c;
   letter-spacing: 0.05rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
 `;
 
 export default AddWorkoutForm
