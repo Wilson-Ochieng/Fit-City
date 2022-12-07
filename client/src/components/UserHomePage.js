@@ -8,7 +8,7 @@ const UserHomePage = ({ errors, setErrors, currentUser }) => {
     return (
         <MainContainer>
             <NavBar currentUser={currentUser} />
-            <LogoText>Your Workout Tracker</LogoText>
+            <LogoText>Fit City</LogoText>
             <HorizontalLine />
             <WorkoutsList errors={errors} setErrors={setErrors} />
         </MainContainer>
@@ -17,7 +17,7 @@ const UserHomePage = ({ errors, setErrors, currentUser }) => {
 
 const LogoText = styled.h2`
   margin: 0.4rem 0 0 0;
-  color: #062c9e;
+  color: #0000FF;
 `;
 
 export default UserHomePage
