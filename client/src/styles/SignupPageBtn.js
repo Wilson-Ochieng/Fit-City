@@ -5,7 +5,7 @@ function SignupPageBtn({ type, content }) {
 }
 
 const SignupPageBtnStyle = styled.button`
-  background: linear-gradient(to left, #14163c 0%, #062c9e 80%);
+  background: #14163c;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   width: 50%;

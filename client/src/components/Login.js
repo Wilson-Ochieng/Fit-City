@@ -41,7 +41,7 @@ const Login = ({ errors, handleUserLoginAndSignup }) => {
     <MainContainer>
       <HorizontalLine/>
       <InputForm onSubmit={onSubmit}>
-        <Header>Fit-city</Header>
+        <Header>Fit City</Header>
         <HorizontalLine />
         <Input
           placeholder="Username"
@@ -68,7 +68,7 @@ const Login = ({ errors, handleUserLoginAndSignup }) => {
   );
 }
 const Header = styled.h2`
-  color : blue;
+  color : #14163c;
   margin: 3rem 0 2rem 0;
   padding: 1rem;
   text-shadow: 1.2px 0.4px 1.2px #062c9e;

@@ -20,7 +20,7 @@ const Home = () => {
 
 const LogoText = styled.h2`
   margin: 3rem 0 1rem 0;
-  color : blue;
+  color : #14163c;
   font-size:25px;
   font-weight:bold;
 `;
@@ -32,7 +32,7 @@ const Instructions = styled.h4`
 
 const LogIn = styled.button`
   margin: 2rem 0 3rem 0;
-  background: linear-gradient(to right, #1b1c4a 0%, #062c9e 70%);
+  background: #14163c;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   width: 40%;
@@ -45,7 +45,7 @@ const LogIn = styled.button`
 
 const SignUp = styled.button`
   margin: 2rem 0 1rem 0;
-  background: linear-gradient(to right, #062c9e 0%,  #1b1c4a 70%);
+  background: #14163c;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   width: 40%;

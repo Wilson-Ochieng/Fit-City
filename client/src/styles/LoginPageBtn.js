@@ -6,7 +6,7 @@ function LoginPageBtn({ type, content, onClick }) {
 
 const LoginPageBtnStyle = styled.button`
   margin: 2rem 0 3rem 0;
-  background: linear-gradient(to right, #14163c 0%, #062c9e 70%);
+  background: #14163c;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   width: 40%;
