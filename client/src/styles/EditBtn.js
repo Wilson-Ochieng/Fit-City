@@ -19,7 +19,7 @@ const EditBtnStyle = styled.button`
   text-align: center;
   transition: all 0.1s;
   :hover {
-    border-color: #c5b6d9;
+    border-color: #14163c;
   }
 `;
 
