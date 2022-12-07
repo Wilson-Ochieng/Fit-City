@@ -5,7 +5,7 @@ function LoginButton({ type, content }) {
 }
 
 const LoginButtonStyle = styled.button`
-  background: linear-gradient(to left, #14163c 0%, #062c9e 80%);
+  background: #14163c;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   width: 50%;

@@ -5,17 +5,17 @@ function AddBtn({ type, content }) {
 }
 
 const AddBtnStyle = styled.button`
-  background: linear-gradient(to right, #ffffff 0%, #ffe7d1 70%);
+  background:#14163c;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   width: 40%;
-  height: 1.1rem;
+  height: 1.5rem;
   border: none;
   border-radius: 2rem;
   cursor: pointer;
-  color: #2b3099;
+  color: #fff;
   font-weight: bold;
-  margin: -0.5rem 0 0 0;
+  margin: 1.1rem 0 0 0;
 `;
 
 export default AddBtn

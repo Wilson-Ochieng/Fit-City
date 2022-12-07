@@ -54,7 +54,7 @@ const FormText = styled.h5`
 `;
 
 const AddExercise = styled.button`
-  background: linear-gradient(to right, #2b3099 20%, #73a8e6 100%);
+  background: #14163c;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   width: 37%;
@@ -71,7 +71,7 @@ const Separator = styled.hr`
   width: 70%;
   height: 0.1em;
   border: none;
-  background-color: #73a8e6;
+  background-color: #14163c;
   margin: 1rem 0 0.1rem 0;
 `;
 

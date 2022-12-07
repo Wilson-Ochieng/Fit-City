@@ -14,12 +14,12 @@ const EditBtnStyle = styled.button`
   text-decoration: none;
   font-family: 'Roboto',sans-serif;
   font-weight: 300;
-  color: #2b3099;
+  color: #14163c;
   text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.25);
   text-align: center;
   transition: all 0.1s;
   :hover {
-    border-color: #c5b6d9;
+    border-color: #14163c;
   }
 `;
 

@@ -49,17 +49,17 @@ const ExerciseList = ({ currentUser, setCurrentUser }) => {
 }
 
 const BackBtn = styled.button`
-  background: linear-gradient(to right,  #0ec727 20%,  #062c9e 100%);
+  background: #14163c;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  width: 60%;
-  height: 3.5rem;
+  width: 65%;
+  height: 2.5rem;
   border: none;
   border-radius: 2rem;
   cursor: pointer;
-  color: #ffe7d1;
+  color: #fff;
   font-weight: 600;
-  margin: 0.8em 0 0 3rem;
+  margin: 1.0em 0 0 3rem;
 `;
 
 

@@ -5,17 +5,17 @@ function AddExerciseBtn({ type, content }) {
 }
 
 const AddExerciseBtnStyle = styled.button`
-  background: linear-gradient(to right, #ffffff 0%, #ffe7d1 70%);
+  background: #14163c;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  width: 45%;
+  width: 60%;
   height: 2.1rem;
   border: none;
   border-radius: 2rem;
   cursor: pointer;
-  color: #2b3099;
+  color: #fff;
   font-weight: bold;
-  margin: 0.5rem 0 0 4.4rem;
+  margin: 0.8rem 0 0.2rem 4.4rem;
 `;
 
 export default AddExerciseBtn

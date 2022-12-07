@@ -33,7 +33,7 @@ const Logout = ({ setCurrentUser }) => {
 }
 
 const LogoutText = styled.h1`
-  color: #1bcf51;
+  color: #14163c;
   font-size: 1.5rem;
   letter-spacing: 0.4rem;
   margin: 5rem 0 5rem 0;
