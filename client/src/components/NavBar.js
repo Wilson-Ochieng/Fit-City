@@ -7,7 +7,7 @@ const NavBar = ({ currentUser }) => {
   return (
     <Wrapper>
       <Nav>
-        <Logo>{currentUser ? `Signed in as: ${currentUser.username}` : null}</Logo>
+        <Logo>{currentUser ? `User: ${currentUser.username}` : null}</Logo>
         <Button as={Link} to='/login' variant='outline'>Switch User?</Button>
         <Button as={Link} to='/logout' variant='fill'>Log Out</Button>
       </Nav>
@@ -26,7 +26,7 @@ const Wrapper = styled.div`
 
 const Nav = styled.nav`
   display: flex;
-  gap: 5px;
+  gap: 20px;
   right: 8px;
 `;
 

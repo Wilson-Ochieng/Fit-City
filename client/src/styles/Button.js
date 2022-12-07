@@ -24,15 +24,15 @@ function Button({ variant = "fill", color = "primary", ...props }) {
 
 const ButtonBase = styled.button`
   cursor: pointer;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   border: 1px solid transparent;
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 7px 8px;
   text-decoration: none;
 `;
 
 const FillButton = styled(ButtonBase)`
-  background-color: var(--main);
+  background-color: #14163c;
   color: var(--accent);
 
   &:hover {
@@ -42,8 +42,8 @@ const FillButton = styled(ButtonBase)`
 
 const OutlineButton = styled(ButtonBase)`
   background-color: white;
-  color: var(--main);
-  border: 2px solid var(--main);
+  color: #14163c;
+  border: 2px solid #14163c;
 
   &:hover {
     background: hsl(235deg 85% 97%);
