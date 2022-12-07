@@ -4,6 +4,7 @@ import Errors from './Errors'
 import styled from 'styled-components'
 import { MainContainer, HorizontalLine, InputForm, LoginPageBtn, LogoText, SignInput, SignupPageBtn } from '../styles'
 
+
 const Signup = ({ errors, handleUserLoginAndSignup }) => {
   const history = useHistory()
   const [state, setState] = useState({})
@@ -32,7 +33,7 @@ const Signup = ({ errors, handleUserLoginAndSignup }) => {
   return (
     <MainContainer>
       <HorizontalLine />
-      <LogoText>Track your workouts any day, Anywhere!</LogoText>
+      <LogoText>Stay Fit,Stay Healthy,Live Long!</LogoText>
       <HorizontalLine />
       <br />
       <Errors errors={errors} />

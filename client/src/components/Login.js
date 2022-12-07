@@ -67,8 +67,8 @@ const Login = ({ errors, handleUserLoginAndSignup }) => {
     </MainContainer>
   );
 }
-
 const Header = styled.h2`
+  color : blue;
   margin: 3rem 0 2rem 0;
   padding: 1rem;
   text-shadow: 1.2px 0.4px 1.2px #062c9e;
@@ -81,6 +81,8 @@ const SignUpText = styled.h4`
   letter-spacing: 0.2rem;
   text-shadow: 1px 1px 1.3px #ffe7d1;
 `;
+
+
 
 
     export default Login

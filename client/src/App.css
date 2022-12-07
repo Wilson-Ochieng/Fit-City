@@ -1,4 +1,4 @@
-/* .login-container, .signup-container {
+ .login-container, .signup-container {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -106,7 +106,7 @@
   border: none;
   border-radius: 2rem;
   cursor: pointer;
-  color: white;
+  color: rgb(255, 255, 255);
   margin: 0 0 1rem 0;
 }
 
@@ -123,7 +123,7 @@ hr {
 
 
 
-/* 
+
 .App { 
   text-align: center;
 }
@@ -161,4 +161,4 @@ hr {
   to {
     transform: rotate(360deg);
   }
-} */
+} 
