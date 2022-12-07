@@ -10,7 +10,7 @@ const Home = () => {
         <MainContainer>
             <LogoText>Fit City</LogoText>
             <HorizontalLine />
-            <Instructions>Log-in to your page</Instructions>
+            <Instructions>Please Log in</Instructions>
             <LogIn onClick={() => history.push('/login')}>Log In</LogIn>
             <Instructions>Or click below to Sign Up</Instructions>
             <SignUp onClick={() => history.push('/signup')}>Sign Up</SignUp>
